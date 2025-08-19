@@ -10,12 +10,9 @@ public class Bubblesort {
             }
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {5, 3, 8, 4, 2};
-        
         bubbleSort(arr);
-        
         for (int num : arr) {
             System.out.print(num + " ");
         }
